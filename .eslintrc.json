@@ -1,0 +1,18 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+      "browser": true,
+      "jest": true,
+      "es6": true
+    },
+    "extends": [
+      "plugin:flowtype/recommended",
+      "prettier/flowtype",
+      "plugin:prettier/recommended"
+    ],
+    "rules": {
+      "no-use-before-define": "warn",
+      "no-unused-vars": "off",
+      "@typescript-eslint/no-unused-vars": ["error"]
+    }
+  }
