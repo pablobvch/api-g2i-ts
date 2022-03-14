@@ -6,8 +6,6 @@
       "es6": true
     },
     "extends": [
-      "plugin:flowtype/recommended",
-      "prettier/flowtype",
       "plugin:prettier/recommended"
     ],
     "rules": {
